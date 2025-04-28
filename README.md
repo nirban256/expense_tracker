@@ -1,6 +1,6 @@
 # Full Stack Expense Tracker built with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI 🔥🔥
 
-<img width="1470" alt="" src="">
+<img width="1470" alt="Expense Tracker" src="https://github.com/user-attachments/assets/4646ca97-0335-4aac-8ab3-1a8a70773487">
 
 ### Make sure to create a `.env` file with following variables -
 
