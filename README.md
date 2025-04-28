@@ -2,7 +2,7 @@
 
 <img width="1470" alt="Expense Tracker" src="https://github.com/user-attachments/assets/4646ca97-0335-4aac-8ab3-1a8a70773487">
 
-### Make sure to create a `.env` file with following variables -
+### To run the application create a `.env` file with following variables -
 
 ```
 DATABASE_URL=
@@ -20,4 +20,17 @@ GEMINI_API_KEY=
 RESEND_API_KEY=
 
 ARCJET_KEY=
+```
+
+
+### Install the dependencies run
+
+```
+npm install
+```
+
+### Run the application using 
+
+```
+npm run dev
 ```
