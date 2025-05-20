@@ -23,7 +23,7 @@
 
 ## 💡 Why This Project?
 
-Managing finances manually can be tedious. We wanted to build a smart, AI-powered app that automates categorization, simplifies tracking, and provides a beautiful user experience — helping people focus on *how* they spend, not *how* to track it.
+Managing finances manually can be tedious. I wanted to build a smart, AI-powered app that automates categorization, simplifies tracking, and provides a beautiful user experience — helping everyone focus on *how* they spend, not *how* to track it.
 
 ---
 
