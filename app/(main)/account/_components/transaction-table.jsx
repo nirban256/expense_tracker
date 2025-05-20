@@ -54,6 +54,7 @@ import { bulkDeleteTransactions } from "@/actions/account";
 import useFetch from "@/hooks/use-fetch";
 import { BarLoader } from "react-spinners";
 import { useRouter } from "next/navigation";
+import DownloadCSVButton from "./download-csv";
 
 const ITEMS_PER_PAGE = 10;
 
@@ -216,6 +217,7 @@ export function TransactionTable({ transactions }) {
           />
         </div>
         <div className="flex gap-2">
+          <DownloadCSVButton />
           <Select
             value={typeFilter}
             onValueChange={(value) => {
@@ -377,7 +379,7 @@ export function TransactionTable({ transactions }) {
                         : "text-green-500"
                     )}
                   >
-                    {transaction.type === "EXPENSE" ? "-" : "+"}$
+                    {transaction.type === "EXPENSE" ? "-" : "+"}₹
                     {transaction.amount.toFixed(2)}
                   </TableCell>
                   <TableCell>
@@ -392,7 +394,7 @@ export function TransactionTable({ transactions }) {
                               <RefreshCw className="h-3 w-3" />
                               {
                                 RECURRING_INTERVALS[
-                                  transaction.recurringInterval
+                                transaction.recurringInterval
                                 ]
                               }
                             </Badge>

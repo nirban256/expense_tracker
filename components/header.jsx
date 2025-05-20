@@ -4,7 +4,6 @@ import { PenBox, LayoutDashboard } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { checkUser } from "@/lib/checkUser";
-import Image from "next/image";
 
 const Header = async () => {
   await checkUser();
@@ -23,10 +22,10 @@ const Header = async () => {
               Features
             </a>
             <a
-              href="#testimonials"
+              href="#howitworks"
               className="text-gray-600 hover:text-blue-600"
             >
-              Testimonials
+              How it Works
             </a>
           </SignedOut>
         </div>
